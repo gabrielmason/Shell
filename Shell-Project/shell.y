@@ -1,16 +1,3 @@
-
-/*
- * CS-252
- * shell.y: parser for shell
- *
- * This parser compiles the following grammar:
- *
- *	cmd [arg]* [> filename]
- *
- * you must extend it to understand the complete shell grammar
- *
- */
-
 %code requires 
 {
 #include <string>
